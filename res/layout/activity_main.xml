@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <AbsoluteLayout
+        android:id="@+id/limg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/boy_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_x="20dp"
+            android:layout_y="30dp"/>
+    </AbsoluteLayout>
+
+</RelativeLayout>
